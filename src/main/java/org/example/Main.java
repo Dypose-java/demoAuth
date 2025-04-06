@@ -17,5 +17,6 @@ public class Main {
                                 new MockUserRepository())),
                 new SwingMainView(
                         new MockMessageRepository())).run();
+        //
     }
 }

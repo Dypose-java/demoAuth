@@ -10,3 +10,4 @@ public class Application  {
         сalculator.countingNums(num1,num2);
     }
 }
+

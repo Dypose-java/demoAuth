@@ -77,6 +77,7 @@ public class MainPostGreSQL implements PostGreSQL {
         st.close();
         connection.close();
 
+
     }
     void addNewUsers(Connection connection,String login,String password) throws SQLException {
         PreparedStatement st = connection.prepareStatement("insert into users(login,password) values(?,?)");

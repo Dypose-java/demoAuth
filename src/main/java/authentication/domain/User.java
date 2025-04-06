@@ -6,6 +6,7 @@ import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.stream.Stream;
 
+
 public class User {
     private final String login;
     private final byte[] password;

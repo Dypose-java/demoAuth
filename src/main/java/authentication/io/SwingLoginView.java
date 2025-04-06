@@ -44,6 +44,7 @@ public class SwingLoginView implements LoginView {
                 null);
     }
 
+
     public static void main(String[] args) throws AunteficationException {
         new SwingLoginView(new MainUserService(new MockUserBD(),new SecurityService())).doLogin();
     }

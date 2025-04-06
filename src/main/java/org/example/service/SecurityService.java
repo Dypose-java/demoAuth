@@ -11,3 +11,4 @@ public class SecurityService {
         return instance.digest(inputString.getBytes(StandardCharsets.UTF_8));
     }
 }
+

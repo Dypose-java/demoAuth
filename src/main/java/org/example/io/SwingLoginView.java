@@ -20,6 +20,7 @@ public class SwingLoginView implements LoginView {
         return userService.authentication(userName,password);
     }
 
+
     private String showInputPopup(String message){
         return (String) JOptionPane.showInputDialog(null
                 ,message

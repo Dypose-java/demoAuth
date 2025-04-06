@@ -9,3 +9,4 @@ public interface MessageRepository {
     List<Message> getAllMessages(User user);
     void sendMessage(User user,Message message);
 }
+

@@ -17,6 +17,7 @@ public class MainUserService implements UserService {
         this.userRepository = userRepository;
     }
 
+
     @Override
     public User authentication(String userName, String password) throws AunteficationException {
         Optional<User> userByUserName = userRepository.findUserByUserName(userName);

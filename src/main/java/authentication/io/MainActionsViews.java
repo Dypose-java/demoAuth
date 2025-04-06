@@ -20,6 +20,7 @@ public class MainActionsViews implements ActionsViews {
                 LAST_ICON);
     }
 
+
     @Override
     public void showAttempts() {
         int num = (int) new ObjectInputStreams().readFile(Helper.FILE).stream().findFirst().get();

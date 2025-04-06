@@ -8,3 +8,4 @@ import authentication.exceptions.AunteficationException;
 public interface LoginView extends Views {
     User doLogin() throws AunteficationException;
 }
+

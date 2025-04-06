@@ -16,6 +16,7 @@ public class IoLoginConsole implements LoginView {
     }
 
 
+
     @Override
     public User doLogin() throws AunteficationException {
         System.out.println("Введите логин");

@@ -6,3 +6,4 @@ import org.example.exception.AunteficationException;
 public interface UserService {
    public User authentication(String userName, String password) throws AunteficationException;
 }
+

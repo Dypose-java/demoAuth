@@ -6,3 +6,4 @@ public class MainСalculator implements Сalculator {
         System.out.println(num1+num2);
     }
 }
+

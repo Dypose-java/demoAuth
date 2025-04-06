@@ -14,6 +14,7 @@ public class Application {
         this.mainView = mainView;
     }
 
+
     public void run(){
         try {
             User user =loginView.doLogin();

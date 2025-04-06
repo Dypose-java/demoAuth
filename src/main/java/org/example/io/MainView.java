@@ -10,3 +10,4 @@ public interface MainView extends  View {
 
     void startMessage(User user);
 }
+

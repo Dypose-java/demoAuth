@@ -8,6 +8,7 @@ public class Message {
     private final int to;
     private final Date creationDate;
 
+
     public Message(String text, int from, int to, Date creationDate) {
         this.text = text;
         this.from = from;

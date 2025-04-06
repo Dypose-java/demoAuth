@@ -6,3 +6,4 @@ import org.example.exception.AunteficationException;
 public interface LoginView extends View {
     User doLogin() throws AunteficationException;
 }
+

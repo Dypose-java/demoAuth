@@ -4,6 +4,7 @@ public class AunteficationException extends Exception{
     public AunteficationException() {
     }
 
+
     public AunteficationException(String message) {
         super(message);
     }

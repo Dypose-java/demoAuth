@@ -18,6 +18,7 @@ public class User {
         this.passwordHash = passwordHash;
         this.contactList = new ArrayList<>();
     }
+
     public User changeName(String newName){
         return new User(newName,this.idSessions,this.passwordHash);
     }

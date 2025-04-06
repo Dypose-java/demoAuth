@@ -29,6 +29,7 @@ public class SwingMainView implements MainView {
                     ,LAST_ICON);
     }
 
+
     @Override
     public void showMainFrame(User user) {
         List<User> contactList = user.getContactList();
